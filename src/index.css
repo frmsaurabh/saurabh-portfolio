@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply font-sans bg-white text-black dark:bg-primary dark:text-white antialiased;
+}
+
+a {
+  @apply text-accent hover:underline;
+}
+
+button {
+  @apply text-accent border border-accent px-4 py-2 rounded hover:bg-accent hover:text-primary transition duration-300;
+}

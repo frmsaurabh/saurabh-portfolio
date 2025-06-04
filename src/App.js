@@ -1,23 +1,36 @@
-import { useState } from "react";
-import { Sun, Moon } from "lucide-react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import HomePage from "./components/HomePage";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Blog from "./components/Blog";
+import BlogPost from "./components/Blog/BlogPost";        // UPDATED
+import BlogDashboard from "./components/Blog/BlogDashboard"; // NEW
+import NewPostForm from "./components/Blog/NewPostForm";     // NEW
+import Login from "./components/Auth/Login";                 // MOVED
+import Credentials from "./components/Credentials";
 
 function App() {
-  const [dark, setDark] = useState(false);
-  const toggleTheme = () => setDark(!dark);
-
   return (
-    <div className={dark ? "bg-gray-900 text-white min-h-screen" : "bg-white text-gray-900 min-h-screen"}>
-      <header className="flex justify-between items-center p-6">
-        <h1 className="text-2xl font-bold">Saurabh Chandra</h1>
-        <button onClick={toggleTheme}>
-          {dark ? <Sun size={24} /> : <Moon size={24} />}
-        </button>
-      </header>
-      <main className="flex flex-col items-center justify-center h-[80vh] text-center">
-        <h2 className="text-4xl font-semibold mb-4">Simplifying Insurance Through Tech</h2>
-        <p className="text-lg text-gray-500 dark:text-gray-400">A modern portfolio in progress.</p>
-      </main>
-    </div>
+    <Router>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/credentials" element={<Credentials />} />
+         {/* <Route path="/blog" element={<Blog />} /> 
+          <Route path="/blog/:id" element={<BlogPost />} />*/}
+          <Route path="/contact" element={<Contact />} />
+          
+        </Route>
+
+       {/*} <Route path="/login" element={<Login />} />
+        <Route path="/admin" element={<BlogDashboard />} />
+        <Route path="/new-post" element={<NewPostForm />} />*/}
+      </Routes>
+    </Router>
   );
 }
 
