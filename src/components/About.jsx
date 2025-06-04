@@ -26,7 +26,7 @@ export default function About() {
               Hello, I’m <strong>Saurabh Chandra</strong> — a techno-functional consultant with deep expertise in insurance, finance, and digital transformation.
             </p>
             <p>
-              I currently serve as an <strong>Assistant Manager in IT at The New India Assurance Co. Ltd.</strong>, where I lead core financial systems, policy digitization, and process automation for over <strong>1 crore policies and 40,000+ daily health claims</strong>.
+              I currently serve as an <strong>Assistant Manager in IT at The New India Assurance Co. Ltd.</strong>, where I lead core financial systems, policy digitization, and process automation for over <strong>1 crore policies anually and 40,000+ daily health claims</strong>.
             </p>
             <p>
               My role combines strategic planning with hands-on execution — spanning Oracle Financials, NHCX & ABHA integration, KPI restructuring, and automated GST compliance.
@@ -38,7 +38,7 @@ export default function About() {
               I’ve held prior roles in <strong>Allahabad Bank</strong> and <strong>Cognizant</strong>, giving me cross-domain fluency in banking, technology, and customer operations.
             </p>
             <p>
-              Outside work, I contribute to industry research, train at National Insurance Academy and Insurance Institute of India, and write on the future of insurtech and risk management.
+              I also contribute to industry research, train at National Insurance Academy and Insurance Institute of India, and write on the future of insurtech and risk management.
             </p>
             <p className="italic text-blue-600 dark:text-blue-400 font-medium">
               I don’t just build solutions — I simplify systems that touch millions.

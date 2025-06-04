@@ -7,7 +7,7 @@ import { useLocation } from "react-router-dom";
 const projects = [
   {
     title: "Disbursement Bank Integration",
-    description: "Enabled seamless end-to-end encrypted disbursements through bank APIs. Processing 50K+ payments monthly.",
+    description: "Enabled seamless end-to-end encrypted disbursements through bank APIs. Processing 70K+ payments daily.",
     tags: ["Banking", "API", "Insurance"],
   },
   {

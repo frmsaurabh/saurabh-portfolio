@@ -40,7 +40,7 @@ export default function HomePage() {
 
         {/* Hero Section */}
         <section className="min-h-screen flex flex-col justify-center items-center text-center px-4">
-          <h1 className="text-5xl md:text-7xl font-extrabold mb-4 text-gray-900 dark:text-white">
+          <h1 className="text-5xl text-4xl font-extrabold mb-4 text-gray-900 dark:text-white">
             Saurabh Chandra
           </h1>
           <h2 className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-6">
