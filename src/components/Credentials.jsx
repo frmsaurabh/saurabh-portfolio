@@ -33,7 +33,7 @@ const timeline = [
     year: "July 2014–November 2014",
     icon: <Briefcase size={20} />,
     description:
-      "Trained in Mainframe Technologies and enterprise systems.",
+      "Trained in Basic programming languages.",
   },
 ];
 

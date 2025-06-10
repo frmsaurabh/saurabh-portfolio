@@ -16,7 +16,7 @@ const projects = [
     tags: ["Oracle", "GST", "Finance"],
   },
   {
-    title: "Org Restructuring",
+    title: "Organizational Restructuring",
     description: "Moved from 4-tier to 3-tier org with TDS and payment centralization.",
     tags: ["Compliance", "Finance", "Oracle"],
   },
@@ -32,7 +32,7 @@ const projects = [
   },
   {
     title: "GSTR Reconciliation",
-    description: "RPA bots automated monthly returns and minimized input credit loss.",
+    description: "RPA bots automated monthly GSTR returns and minimized input credit loss. The returns included GSTR 7, GSTR 6, GSTR 3 and GSTR 1.",
     tags: ["Automation", "RPA", "GST"],
   },
   {
